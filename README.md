@@ -4,5 +4,5 @@
 # start
 - parcel index.html
 
-# why?
+# why use parcel?
 - resolve ts file can't running in browser

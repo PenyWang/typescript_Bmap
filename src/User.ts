@@ -1,19 +1,14 @@
 import faker from 'faker';
 
-export class User {
+export default class User {
 
-  name: string;
+  content: string;
+  longitude: number;
+  latitude: number;
 
-  location: {
-    latitude: number;
-    longitude: number;
-  };
-
-  constructor(){
-    this.name = faker.internet.userName();
-    this.location = {
-      latitude: parseFloat(faker.address.latitude()),
-      longitude: parseFloat(faker.address.longitude())
-    }
+  constructor(content: string){
+    this.content = content;
+    this.longitude = 116.404;
+    this.latitude = 39.915;
   }
 }

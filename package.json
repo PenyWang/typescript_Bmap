@@ -1,10 +1,12 @@
 {
   "devDependencies": {
+    "@h21-map-types/baidu-map": "^2.0.8",
+    "@h21-map/types-baidu": "^2.0.1",
     "jquery": "^3.4.1",
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@types/baidumap-web-sdk": "^0.0.2",
+    "@types/baidumap-web-sdk": "0.0.2",
     "@types/faker": "^4.1.11",
     "@types/jquery": "^3.3.34",
     "data": "^0.6.1",
