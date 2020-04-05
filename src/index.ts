@@ -5,6 +5,7 @@ import {Company} from './Company';
 console.log(new User());
 console.log(new Company());
 
-// var map = new BMapGL.Map("map");  //加入BMapGL typescript
-// var point = new BMapGL.Point(116.404, 39.915);
-// map.centerAndZoom(point, 15); 
+var map = new BMap.Map("map");  
+var point = new BMap.Point(116.404, 39.915);
+// new BMap.Marker
+map.centerAndZoom(point, 15); 
